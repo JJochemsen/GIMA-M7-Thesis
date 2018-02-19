@@ -1,0 +1,1 @@
+COPY fietsersbondbriders2014_gpsmatch FROM 'C:/Thesis/Data/Netwerken_GPS/fietsersbondbriders2014/fietsersbondbriders2014_gpsmatch.csv' DELIMITERS ',' CSV HEADER;

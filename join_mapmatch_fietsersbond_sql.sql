@@ -1,0 +1,7 @@
+select 
+	fietsersbondbriders2014_gpsmatch.*
+from
+	fietsersbondbriders2014_gpsmatch,
+	fietsersbond_til_join
+where
+	fietsersbondbriders2014_gpsmatch.linknummer = fietsersbond_til_join.linknummer
